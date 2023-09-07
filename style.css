@@ -84,6 +84,12 @@ h2{
     border-bottom: 1px solid;
 
 }
+h2{
+    color: #3aaf9f;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+}
 .name::after,
 .track::after,
 .utc::after,
