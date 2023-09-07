@@ -14,8 +14,7 @@
 }
 .info{
     background: white;
-    box-shadow: 
-    inset -1px -1px 10px 2px  ;
+    box-shadow: inset -1px -1px 10px 2px black ;
     padding: 1rem;
     display: flex;
     align-items: center;
