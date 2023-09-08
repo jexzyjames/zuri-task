@@ -10,8 +10,8 @@ let open = new Intl.DateTimeFormat("en-us",{dateStyle : "full"});
 //cDay.innerText = f.format(date);//
 
 
-let current = new Date();
-console.log(current);
+let shoe = new Date();
+console.log(shoe);
 console.log(open);
 // console.log(show);
 
