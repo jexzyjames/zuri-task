@@ -5,14 +5,13 @@ var days = [ 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', '
 
 let show = new Date().getDay();
 
-let open = new Intl.DateTimeFormat("en-us",{dateStyle : "full"});
+
 
 //cDay.innerText = f.format(date);//
 
 
-let shoe = new Date();
-console.log(shoe);
-console.log(open);
+
+
 // console.log(show);
 
 
@@ -20,8 +19,8 @@ console.log(open);
 for (let index = 0; index < days.length; index++) {
         setInterval(   function result() {
         const seconds = shoe.getUTCMilliseconds();
-        
-         
+        let shoe = new Date();
+         console.log(shoe);
         // console.log(second);
         utc.innerText = seconds;
 
