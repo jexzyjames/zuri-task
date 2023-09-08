@@ -7,7 +7,6 @@ let show = new Date().getDay();
 
 
 let current = new Date();
-let open = new Date().getUTCMill
 console.log(current);
 // console.log(show);
 
