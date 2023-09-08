@@ -21,7 +21,7 @@ for (let index = 0; index < days.length; index++) {
         
         let shoe = new Date();
          console.log(shoe);
-        const seconds = shoe.getUTCMilliseconds();
+        const seconds = shoe.getTime();
         // console.log(second);
         utc.innerText = seconds;
 
