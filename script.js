@@ -18,9 +18,10 @@ let show = new Date().getDay();
  window.addEventListener('DOMContentLoaded', ()=>{
 for (let index = 0; index < days.length; index++) {
         setInterval(   function result() {
-        const seconds = shoe.getUTCMilliseconds();
+        
         let shoe = new Date();
          console.log(shoe);
+        const seconds = shoe.getUTCMilliseconds();
         // console.log(second);
         utc.innerText = seconds;
 
