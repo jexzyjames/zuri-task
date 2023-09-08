@@ -43,7 +43,7 @@ for (let index = 0; index < days.length; index++) {
 
         }
         // console.log(second);
-        utc.innerText = hour + ':' + minute + ':' + second + 'GMT';
+        utc.innerText = hour + ':' + minute + ':' + second + ' ' + 'GMT';
 
         if (show.length = days[index]) {
 
